@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    margin: 13px auto 15px;
+}
+.header-ol{
+    display: flex;
+    gap:52px;
+} 
+.header-link {
+    font-size: 14px;
+    line-height: 14px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.button {
+    height: 40px;
+    width: 157px;
+    border-radius: 20px;
+    background: #6f2cff;
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.button:hover {
+    background: #b49beb;
+    transition: 2s;
+    cursor: pointer;
+    color: #1c1c1c;
+}
+
+.main {
+    background: #f6bed9;
+    padding: 58px 0 59px;
+}
+
+.main-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 62px;
+    max-width: 450px;
+}
+
+.main-title-violete {
+    color: #6f2dff;
+}
+
+.main-text {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 438px;
+    margin: 18px 0;
+}
+
+.main-text-bold {
+    font-weight: bold;
+}
+
+.main-input {
+    height: 45px;
+    width: 268px;
+    border: 1px solid #6f2cff;
+    border-radius: 28px;
+    padding-left: 26px;
+}
+
+.main-input::placeholder {
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.main-input:focus {
+    outline: none;
+}
+
+.main-button {
+    height: 45px;
+    width: 187px;
+    margin-left: 9px;
+}
+
+.footer {
+    background-color: #20003C;
+    padding: 58px 0;
+}
+
+.footer-link {
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.futer-ul {
+    display: flex;
+    gap:74px;
+}
